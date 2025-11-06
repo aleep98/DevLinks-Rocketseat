@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+#container {
+  width: 360px;
+  border: 1px solid red;
+  margin: auto;
+}
+
+#profile {
+  text-align: center;
+}
+
+#profile img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+  object-fit: cover;
+}
