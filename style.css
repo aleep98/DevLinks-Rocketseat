@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'inter', sans-serif;
+  color: white;
+
 }
 
 body {
@@ -16,6 +19,7 @@ body {
 
 #profile {
   text-align: center;
+  padding: 24px;
 }
 
 #profile img {
@@ -24,4 +28,10 @@ body {
   border: 1px solid black;
   border-radius: 50%;
   object-fit: cover;
+}
+
+#profile p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 }
