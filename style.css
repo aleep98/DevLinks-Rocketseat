@@ -42,11 +42,7 @@ body {
 }
 
 #profile img {
-  width: 100px;
-  height: 100px;
-  border: 1px solid black;
-  border-radius: 50%;
-  object-fit: cover;
+  width: 112px;
 }
 
 #profile p {
@@ -55,11 +51,24 @@ body {
   line-height: 24px;
 }
 
+#switch {
+  position: relative;
+  width: 64px;
+
+  margin: 4px auto;
+}
+
 #switch button {
   width: 32px;
   height: 32px;
   background: white var(--switch-bg-url) no-repeat center;
   border-radius: 50px;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  top: 50%;
+
+  transform: translateY(-50%);
 }
 
 #switch span {
@@ -71,6 +80,11 @@ body {
   back-drop-filter: blur(4px);
   -webkit-back-drop-filter: blur(4px);
   border-radius: 9999px;
+}
+
+.light #switch button {
+  right: 0;
+  left: initial;
 }
 
 ul {
